@@ -28,9 +28,9 @@ export default class CreateCategories1593461800830 implements MigrationInterface
               name: 'updated_at',
               type: 'timestamp',
               default: 'now()',
-            },
+            }
           ],
-        })
+        }))
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {
